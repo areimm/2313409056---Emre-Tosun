@@ -3,7 +3,11 @@
     background: rgb(166, 203, 158);
     background: linear-gradient(297deg, rgba(166, 203, 158, 1) 0%, rgba(56, 136, 85, 1) 100%);
     text-align: center;
+    display: flex;
+    position: sticky;
+    z-index: 999;
 }
+
 
 /* navbar itemlerinin text rengini ve yazı fontunun boyutunu değiştiriyoruz. */
 .navbar-nav .nav-link {
@@ -97,4 +101,11 @@
 
 #contactCard{
     margin-bottom: 50px;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
 }
