@@ -30,10 +30,11 @@
                         <a class="nav-link" href="#">Anasayfa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="smoothScroll('ilimiz')" href="#ilimiz">İlimiz</a>
+                        <a class="nav-link" href="#ilimiz">İlimiz</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gelenek Ve Göreneklerimiz</a>
+                        <a class="nav-link" href="#gelenek">Gelenek Ve
+                            Göreneklerimiz</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Galeri</a>
@@ -48,42 +49,77 @@
 </header>
 
 <body>
+    <!-- <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+
     <div class="jumbotron">
         <div class="container">
-            <h1>Lorem ipsum dolor.</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo velit porro temporibus non
-                minima distinctio tenetur pariatur perferendis qui, ipsum.</p>
+            <h1>Kültürün ve Doğanın Buluşma Noktası</h1>
+            <p class="lead">Tarihin izlerini taşıyan şehirde, doğanın yeşil dokusunun içinde kültürel bir serüvene hazır
+                olun.</p>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, in?</p>
-            <button type="button" class="btn btn-secondary btn-lg">Lorem ipsum.</button>
+            <p>Sizde bize katılın...</p>
+            <button type="button" class="btn btn-secondary btn-lg "><a href="#ilimiz">Daha Fazlası</a></button>
         </div>
     </div>
 
-    <div id="ilimiz" class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="display-4" style="text-align: center;">İlimiz</h2>
 
-                <div class="card">
-                    <div class="card-header">
-                        <h4>İlimiz</h4>
-                    </div>
-                    <div class="card-body">
-                        <p>Siirt, Türkiye'nin Güneydoğu Anadolu Bölgesi'nde yer alan bir ildir.
 
-                            Siirt ilinin nüfusu 331.070'tir. Bu nüfusun %72,4'ü şehirlerde yaşamaktadır (2020 sonu).
-                            İlin yüzölçümü 5.718 km2'dir. İlde km2'ye 58 kişi düşmektedir. (Bu sayı merkezde 268’dir.)
-                            İlde yıllık nüfus artışı %0,24 olmuştur. İl merkezinin denizden yüksekliği 887
-                            metredir.
+    <section id="ilimiz">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="display-4" style="text-align: center; margin-bottom: 50px;">İlimiz</h2>
 
-                            2021 TÜİK verilerine göre 7 ilçe, 12 belediye, bu belediyelerde 63 mahalle, ayrıca 274 köy
-                            bulunmaktadır.
-                        </p>
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>İlimiz</h4>
+                        </div>
+                        <div class="card-body">
+                            <p>Siirt, Türkiye'nin Güneydoğu Anadolu Bölgesi'nde yer alan bir ildir.
+
+                                Siirt ilinin nüfusu 331.070'tir. Bu nüfusun %72,4'ü şehirlerde yaşamaktadır (2020 sonu).
+                                İlin yüzölçümü 5.718 km2'dir. İlde km2'ye 58 kişi düşmektedir. (Bu sayı merkezde
+                                268’dir.)
+                                İlde yıllık nüfus artışı %0,24 olmuştur. İl merkezinin denizden yüksekliği 887
+                                metredir.
+
+                                2021 TÜİK verilerine göre 7 ilçe, 12 belediye, bu belediyelerde 63 mahalle, ayrıca 274
+                                köy
+                                bulunmaktadır.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
 
     <div class="container">
         <div class="row">
@@ -95,7 +131,7 @@
                         <p class="card-text">Siirt'in zengin tarihi ve kültürel mirası, medeniyetlerin izlerini taşır.
                             Bu yazıda, Siirt'in tarihi geçmişi, önemli kültürel yapıları ve geçmişten günümüze kadar
                             olan evrimi incelenecek.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +144,7 @@
                         <p class="card-text">Siirt'in doğal güzellikleri ve zengin yemek kültürü, ilin öne çıkan
                             özellikleridir. Bu yazıda, Siirt'in eşsiz doğal manzaraları ve yöresel lezzetleri
                             tanıtılacak.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
                     </div>
                 </div>
             </div>
@@ -118,8 +154,9 @@
                     <div class="card-body">
                         <h5 class="card-title
                             ">Siirt'te Tarih ve Geçmiş</h5>
-                        <p class="card-text">Siirt, tarih boyunca birçok medeniyete ev sahipliği yapmıştır. Bu yazıda, Siirt'in tarihi süreçteki dönüşümleri ve önemli noktaları ele alınacak.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">Siirt, tarih boyunca birçok medeniyete ev sahipliği yapmıştır. Bu yazıda,
+                            Siirt'in tarihi süreçteki dönüşümleri ve önemli noktaları ele alınacak.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
                     </div>
                 </div>
             </div>
@@ -129,9 +166,9 @@
                     <div class="card-body">
                         <h5 class="card-title
                             ">Siirt'in Gizli Güzellikleri</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">Siirt, doğal güzellikleriyle büyüler. Bu yazıda, Siirt'in doğal
+                            zenginlikleri ve keşfedilmeyi bekleyen yerleri tanıtılacak.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
                     </div>
                 </div>
             </div>
@@ -140,22 +177,24 @@
                     <img src="img/siirt5.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title
-                            ">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                            ">Efsaneler Diyarı</h5>
+                        <p class="card-text">Siirt'in Mitolojik Hikayeleri
+                            Siirt, birçok efsaneye ve mitolojik hikayeye ev sahipliği yapar. Bu yazıda, Siirt'e özgü
+                            efsaneler ve mitler anlatılacak.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="img/siirt6.jpg" class="card-img-top" alt="...">
+                    <img src="img/siirt6.jpg" class="card-img-top " alt="...">
                     <div class="card-body">
                         <h5 class="card-title
-                            ">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                            ">Kültürel Çeşitlilik</h5>
+                        <p class="card-text">Siirt'te Etnik Mozaiği Keşfetmek
+                            Siirt, farklı kültürlerin buluşma noktasıdır. Bu yazıda, Siirt'in etnik ve kültürel
+                            çeşitliliği incelenecek.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
                     </div>
                 </div>
             </div>
@@ -164,10 +203,11 @@
                     <img src="img/siirt7.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title
-                            ">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                            ">Çeşitlilik ve Zenginlik</h5>
+                        <p class="card-text">Siirt, dil, etnik kökenler ve kültürel açıdan zengin bir yapıya sahiptir.
+                            Bu yazıda, Siirt'in dil çeşitliliği, etnik yapısı ve kültürel zenginliği ele alınacak.
+                        </p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
                     </div>
                 </div>
             </div>
@@ -176,71 +216,150 @@
                     <img src="img/siirt8.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title
-                            ">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                            ">Geçmişten Günümüze</h5>
+                        <p class="card-text">Siirt, tarih boyunca birçok medeniyete ev sahipliği yapmıştır. Bu yazıda,
+                            Siirt'in zengin tarihini keşfederek, geçmişten günümüze uzanan bir yolculuğa çıkılacak.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+<section id="gelenek">
+
+
+    <div style="margin-top: 50px;" class="container">
+        <h2 class="display-4" style="text-align: center; margin-bottom: 50px;">Gelenek Ve Göreneklerimiz</h2>
+
+        <div class="row">
+            <div style="margin-bottom: 20px;" class="col-md-3">
+                <div class="card">
+                    <img src="img/dügün.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Düğün ve Nişan Törenleri</h5>
+                        <p class="card-text">Siirt'te düğün ve nişan törenleri, geleneksel ritüellerle dolu coşkulu ve
+                            renkli kutlamalardır. Davul zurna eşliğinde yapılan bu törenler, uzun yıllara dayanan bir
+                            geleneğin izlerini taşır.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/misafir.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title
+                            ">Sıcak Karşılama
+                        </h5>
+                        <p class="card-text">Siirt kültüründe misafirperverlik, önemli bir değerdir. Misafirler her
+                            zaman büyük bir saygı ve sıcaklıkla karşılanır, ev sahipleri tarafından en iyi şekilde
+                            ağırlanır.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/cemre.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title
+                            ">Cemre Geleneği</h5>
+                        <p class="card-text">Siirt'te cemre geleneği, tarım sezonunun başlangıcını kutlayan ve toplumsal
+                            dayanışmayı pekiştiren önemli bir etkinliktir. Bu geleneğin kökenleri ve kutlama detayları
+                            incelenir.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/elSanat.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title
+                            ">Geleneksel El Sanatları</h5>
+                        <p class="card-text">Siirt, geleneksel el sanatları konusunda zengin bir mirasa sahiptir. Kilim
+                            dokuma, halı ve kilim işleme gibi el sanatları, şehrin kültürel dokusunun önemli bir
+                            parçasını oluşturur.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/kına.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title
+                            ">Kına Geceleri</h5>
+                        <p class="card-text">Siirt kültüründe kına geceleri, evlenmeye hazırlanan gelin adayının dost ve
+                            akrabalarıyla bir araya gelerek eğlendiği ve süslendiği geleneksel bir etkinliktir.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/siirt.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title
+                            ">Yöresel Kıyafetler</h5>
+                        <p class="card-text">Siirt'in yöresel kıyafetleri, geçmişten günümüze kadar geleneksel giyim
+                            tarzlarını yansıtır. Renkli ve özgün tasarımlarıyla dikkat çekerler.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/asure.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title
+                            ">Aşure Günü</h5>
+                        <p class="card-text">Siirt'te aşure günü, genellikle Muharrem ayının onuncu gününde kutlanan ve
+                            toplumun bir araya gelerek aşure pişirdiği önemli bir gelenektir. Bu etkinliğin kökenleri ve
+                            önemi ele alınır.
+                        </p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/dogum.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title
+                            ">Doğum ve Ölüm Gelenekleri</h5>
+                        <p class="card-text">Siirt'te doğum ve ölüm, toplumsal yaşamın önemli dönüm noktalarını
+                            oluşturur. Bu olaylar çeşitli geleneksel uygulamalarla kutlanır veya yönetilir.</p>
+                        <a href="#" class="btn btn-primary">Daha Fazlası</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="galeri">
+
+
+</section>
+
+
+
 
 </body>
+
+<footer>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2021 Copyright:
+        <a class="text-white" href="..."></a>
+    </div>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-<script>
-    // Yavaşça kaydırma fonksiyonu
-    function smoothScroll(targetId) {
-        // Hedef elementi belirleme
-        const target = document.getElementById(targetId);
-        // Hedef elementin sayfa üzerindeki pozisyonunu ve pencerenin dikey kaydırma miktarını al
-        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
-        // Başlangıç konumunu al (pencerenin mevcut dikey kaydırma miktarı)
-        const startPosition = window.pageYOffset;
-        // Hedef ile başlangıç arasındaki mesafeyi hesapla
-        const distance = targetPosition - startPosition;
-        // Kaydırma süresini belirle (1000 = 1 saniye gibi)
-        const duration = 100; // Millisaniye cinsinden kaydırma süresi (örneğin 1000 = 1 saniye)
-        let startTime = null;
 
-        // Animasyon fonksiyonu
-        function animation(currentTime) {
-            // Başlangıç zamanını ayarla
-            if (startTime === null) startTime = currentTime;
-            // Geçen süreyi hesapla
-            const timeElapsed = currentTime - startTime;
-            // Kaydırma eğrisini hesapla
-            const ease = easeInOutQuad(timeElapsed, startPosition, distance, duration);
-            // Pencereyi belirtilen konuma yavaşça kaydır
-            window.scrollTo(0, ease);
-            // Kaydırma süresi boyunca animasyonu yeniden çağır
-            if (timeElapsed < duration) requestAnimationFrame(animation);
-        }
-
-        // Kaydırma eğrisi hesaplaması için easeInOutQuad fonksiyonu
-        function easeInOutQuad(currentTime, startValue, changeInValue, duration) {
-            currentTime /= duration / 2;
-            if (currentTime < 1) return changeInValue / 2 * currentTime * currentTime + startValue;
-            currentTime--;
-            return -changeInValue / 2 * (currentTime * (currentTime - 2) - 1) + startValue;
-
-            /*currentTime: Geçen süre
-            startValue: Başlangıç değeri
-            changeInValue: Değişim miktarı
-            duration: Süre*/
-        }
-
-
-
-        // Animasyonu başlat
-        requestAnimationFrame(animation);
-    }
-
-</script>
 
 </html>
