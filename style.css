@@ -10,7 +10,6 @@ footer{
     width: 100%;
     background: rgb(166, 203, 158);
     background: linear-gradient(297deg, rgba(166, 203, 158, 1) 0%, rgba(56, 136, 85, 1) 100%);
-    text-align: center;
 }
 
 .navbar {
@@ -98,20 +97,6 @@ footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
-    /* 
-    @media screen and (max-width: 1200px) {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    @media screen and (max-width: 900px) {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media screen and (max-width: 600px) {
-        grid-template-columns: repeat(1, 1fr);
-
-    } */
-
 }
 /* cardların column ve düzenini ayarladık artık sabit bi yükseklik ve genişlikteler */
 .card-row>div {
