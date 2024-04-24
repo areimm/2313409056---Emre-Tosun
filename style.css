@@ -4,6 +4,15 @@
     z-index: 999;
 }
 
+footer{
+    color: white;
+    text-align: center;
+    width: 100%;
+    background: rgb(166, 203, 158);
+    background: linear-gradient(297deg, rgba(166, 203, 158, 1) 0%, rgba(56, 136, 85, 1) 100%);
+    text-align: center;
+}
+
 .navbar {
     background: rgb(166, 203, 158);
     background: linear-gradient(297deg, rgba(166, 203, 158, 1) 0%, rgba(56, 136, 85, 1) 100%);
@@ -83,31 +92,6 @@
     height: 100%;
 }
 
-/* cardların içindeki yazılara oweflow verip satır sınırlarını belirliyoruz. */
-.card-text {
-    overflow: hidden;
-    height: 100%;
-    box-sizing: border-box;
-    word-wrap: break-all;
-}
-
-.contactimg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-#contactCard {
-    margin-bottom: 50px;
-}
-
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    background-size: cover;
-}
-
 /* card  css*/
 
 .card-row {
@@ -129,7 +113,7 @@
     } */
 
 }
-
+/* cardların column ve düzenini ayarladık artık sabit bi yükseklik ve genişlikteler */
 .card-row>div {
     display: flex;
     width: 100%;
@@ -144,3 +128,23 @@
 .card-row>div>.card>.card-body>a {
     margin-top: auto;
 }
+
+/* cardların içindeki yazılara oweflow verip satır sınırlarını belirliyoruz. */
+.card-text {
+    overflow: hidden;
+    height: 100%;
+    box-sizing: border-box;
+    word-wrap: break-all;
+}
+
+.contactimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#contactCard {
+    margin-bottom: 50px;
+}
+
+
