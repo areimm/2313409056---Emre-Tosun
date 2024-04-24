@@ -1,5 +1,10 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
 .navbar {
-    /* background: rgba(0, 43, 6, 0.815);*/
     background: rgb(166, 203, 158);
     background: linear-gradient(297deg, rgba(166, 203, 158, 1) 0%, rgba(56, 136, 85, 1) 100%);
     text-align: center;
@@ -8,6 +13,10 @@
     z-index: 999;
 }
 
+/* navbar itemlerine üzerine geldiğimizde hover ekliyoruz */
+.navbar-nav .nav-link:hover {
+    color: rgb(182, 176, 176);
+}
 
 /* navbar itemlerinin text rengini ve yazı fontunun boyutunu değiştiriyoruz. */
 .navbar-nav .nav-link {
@@ -19,7 +28,6 @@
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
-
 }
 
 .card a {
@@ -34,13 +42,6 @@
     border-color: #189640c0;
 }
 
-/* navbar itemlerine üzerine geldiğimizde hover ekliyoruz */
-.navbar-nav .nav-link:hover {
-    color: rgb(182, 176, 176);
-}
-
-
-
 .jumbotron {
     background-image: url("img/bg.jpg");
     background-size: cover;
@@ -52,13 +53,10 @@
     background-color: #189640c0;
     color: white;
     border: none;
-
 }
 
 .jumbotron button:hover {
-
     background-color: #18964063;
-
 }
 
 .jumbotron a {
@@ -88,25 +86,61 @@
 /* cardların içindeki yazılara oweflow verip satır sınırlarını belirliyoruz. */
 .card-text {
     overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
+    height: 100%;
+    box-sizing: border-box;
+    word-wrap: break-all;
 }
 
-.contactimg{
+.contactimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-#contactCard{
+#contactCard {
     margin-bottom: 50px;
 }
 
-.carousel-item{
+.carousel-item {
     height: 100vh;
     min-height: 300px;
     background: no-repeat center center scroll;
     background-size: cover;
+}
+
+/* card  css*/
+
+.card-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    /* 
+    @media screen and (max-width: 1200px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (max-width: 900px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr);
+
+    } */
+
+}
+
+.card-row>div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.card-row>div>.card>.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-row>div>.card>.card-body>a {
+    margin-top: auto;
 }
